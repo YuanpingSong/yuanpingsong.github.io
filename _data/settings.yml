@@ -1,5 +1,6 @@
 basic_settings:
-  site_title: Hey! I'm Max Song 
+  site_title: Max's Blog 
+  site_greeting: Hey! I'm Max Song
   site_tagline:  Or call me Yuanping - a student · coder · noob investor
   favicon_path: /images/favicon/ # use https://favicon.io/ Text: S, Background: Rounded, Font: Nunito, Size: 130, Color: #FFF/#00c8ff
   manifest_path: /images/site.webmanifest
@@ -16,7 +17,7 @@ menu_settings:
     - title: 'Projects'
       url: '/projects/'
     - title: 'Resume'
-      url: '/about'
+      url: '/resume'
     - title: 'Contact'
       url: '/contact'
 
