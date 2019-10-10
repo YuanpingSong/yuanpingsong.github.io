@@ -1,7 +1,8 @@
 basic_settings:
-  site_title: Simples
-  site_tagline: A super simple blogging theme for Jekyll.
-  favicon_image: /images/favicon.png
+  site_title: Hey! I'm Max Song 
+  site_tagline:  Or call me Yuanping - a student · coder · noob investor
+  favicon_path: /images/favicon/ # use https://favicon.io/ Text: S, Background: Rounded, Font: Nunito, Size: 130, Color: #FFF/#00c8ff
+  manifest_path: /images/site.webmanifest
 
 header_settings:
   avatar_image: /images/avatar.jpg
@@ -14,7 +15,7 @@ menu_settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'About'
+    - title: 'Resume'
       url: '/about'
     - title: 'Contact'
       url: '/contact'
@@ -62,8 +63,8 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#ee983d'
-  border_color: '#f7d7b6'
+  accent_color: '#00c8ff'
+  border_color: '#a0e6fa'
   overlay_background_color: '#161B21'
   overlay_text_color: '#ffffff'
   error_color: '#D64541'
