@@ -42,7 +42,9 @@ GPA: 3.842
 * Started Feburary 2019
 * Created vocabulary-building Web application motivated by personal experience learning English. 
 * Implemented features such as dictionary lookup, flashcards, and a versatile reader interface.
-* Self-taught full-stack development. Acquired working knowledge of Vue.js, Express.js, and MongoDB. 
+* Self-taught full-stack development. Acquired working knowledge of Vue.js, Express.js, and MongoDB.
+
+[write-up](/project/introducing-omnireader)
 
 ## Experiences
 **LA Hacks 2019**
