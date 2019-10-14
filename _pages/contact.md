@@ -1,11 +1,20 @@
 ---
 tab_title: Contact
 title: Contact
-subtitle: Simples comes with a built-in contact form, that's free and easy to set up.
-description: Simples is a super simple blogging theme for Jekyll.
+subtitle: Here are the ways you can reach me!
+description: Here are the ways you can reach me!
 featured_image: /images/demo/demo-landscape.jpg
 ---
+The best way to reach me is via email. I will try my best to get back to you within 24-48 hrs.   
 
-{% include contact-form.html %}
+Or you can give me a call. Please Leave me a message in case I don't pick up. I will get back to you as soon as I can. 
+## Email 
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
+### yuanping.song@outlook.com
+
+## Mobile 
+
+### +1 (310) 404-7051
+
+{% comment %} {% include contact-form.html %} {% endcomment %}
+

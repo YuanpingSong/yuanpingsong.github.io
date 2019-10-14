@@ -34,16 +34,15 @@ GPA: 3.842
 * Implemented analytic reporting interface for instructors.
 * Discussed and explored business needs with key stakeholders.
 * Composed technical documentation to facilitate deliverable's wider adoption within UCLA Health Sciences curriculum. 
-* Acquired working knowledge of React.js, Express.js, and MySQL.
-
+* Acquired working knowledge of React.js, Express.js, and MySQL.  
+[write-up](/project/retrospective-pediatric-dentistry)
 
 ## Project 
 **[OReader.app](https://www.oreader.app)**  
 * Started Feburary 2019
 * Created vocabulary-building Web application motivated by personal experience learning English. 
 * Implemented features such as dictionary lookup, flashcards, and a versatile reader interface.
-* Self-taught full-stack development. Acquired working knowledge of Vue.js, Express.js, and MongoDB.
-
+* Self-taught full-stack development. Acquired working knowledge of Vue.js, Express.js, and MongoDB.  
 [write-up](/project/introducing-omnireader)
 
 ## Experiences

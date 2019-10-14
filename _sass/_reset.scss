@@ -18,7 +18,7 @@ body { margin: 0; text-rendering: optimizeLegibility; }
 
 img { border: 0; -ms-interpolation-mode: bicubic; display: block;}
 
-img, object, embed { max-width: 100%; height: auto; }
+img, video, object, embed { max-width: 100%; height: auto; }
 
 input {  -webkit-appearance: none; }
 
