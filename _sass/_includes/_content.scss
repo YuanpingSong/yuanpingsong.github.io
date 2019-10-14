@@ -86,7 +86,7 @@
 		padding: 0;
 	}
 
-	p a {
+	p a, li a {
 		font-weight: $bold-weight;
 		border-bottom: 2px solid $accent-color;
 	}
@@ -203,9 +203,12 @@
 	}
 }
 
-.image-wrap img {
+.image-wrap img, .video-wrap video {
 	margin: 0 auto;
+	display: block;
 }
+
+
 
 .video {
 	position: relative;
