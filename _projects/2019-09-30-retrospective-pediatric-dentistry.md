@@ -3,11 +3,11 @@
 tab_title: "Retrospective: CCLE Pediatric Dentistry Project" 
 title: "Retrospective: CCLE Pediatric Dentistry Project"
 subtitle: 'Summer 2019 internship in review'
-featured_image: '/images/pediatric_dentistry_cover.png'
+featured_image: '/images/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_cover.jpg'
 excerpt: "Want to learn about a cool project I worked on this summer? How did my buddy and I improve on the way the dentistry program is currently handling its data? And what are my takeaways other than technology? Read here for my rumblings." 
 ---
 
-![](/images/pediatric_dentistry_cover.png)
+![](/images/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_cover.jpg)
 
 ## Background
 
@@ -26,8 +26,8 @@ To put things into perspective, let me first show you what we've accomplished th
 <ol>
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_1.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_1.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_1_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_1_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 </div>
@@ -35,8 +35,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_2.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_2.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_2_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_2_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 </div>
@@ -47,8 +47,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_3.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_3.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_3_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_3_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 </div>
@@ -59,14 +59,14 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_4.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_4.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_4_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_4_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_5.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_5.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_5_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_5_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 </div>
@@ -77,8 +77,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_6.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_6.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_6_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_6_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -91,8 +91,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_7.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_7.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_7_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_7_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -105,8 +105,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_8.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_8.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_8_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_8_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -119,8 +119,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_9.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_9.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_9_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_9_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -132,8 +132,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline>
-    <source src="/images/pediatric_dentistry_retro_10.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_10.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_10_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_10_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -145,8 +145,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline >
-    <source src="/images/pediatric_dentistry_retro_11.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_11.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_11_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_11_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -158,14 +158,14 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline >
-    <source src="/images/pediatric_dentistry_retro_12.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_12.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_12_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_12_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
 <video autoplay loop muted playsinline >
-    <source src="/images/pediatric_dentistry_retro_13.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_13.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_13_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_13_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -177,8 +177,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline >
-    <source src="/images/pediatric_dentistry_retro_14.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_14.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_14_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_14_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 
@@ -192,8 +192,8 @@ To put things into perspective, let me first show you what we've accomplished th
 
 <div class="video-wrap">
 <video autoplay loop muted playsinline  width="100%">
-    <source src="/images/pediatric_dentistry_retro_15.webm" type="video/webm">
-    <source src="/images/pediatric_dentistry_retro_15.mp4" type="video/mp4">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_15_2pass_q30.webm" type="video/webm">
+    <source src="/videos/2019-09-30-retrospective-pediatric-dentistry/pediatric_dentistry_retro_15_crf35.mp4" type="video/mp4">
     I'm sorry; your browser doesn't support HTML5 video.
 </video>
 </div>

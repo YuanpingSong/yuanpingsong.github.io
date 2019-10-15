@@ -2,11 +2,11 @@
 tab_title: Welcome!
 title: 'Welcome to My Blog!'
 date: 2019-10-13 21:00:00
-featured_image: '/images/welcome_cover.jpg'
+featured_image: '/images/2019-10-13-welcome-post/welcome_cover.jpg'
 excerpt: Welcome to my blog! I will periodically post updates on this site about my projects and interests. This site is produced with Jekyll and hosted on Github Pages. Curious? Then read on... 
 ---
 
-![](/images/welcome_cover.jpg)
+![](/images/2019-10-13-welcome-post/welcome_cover.jpg)
 
 ## Thank You
 

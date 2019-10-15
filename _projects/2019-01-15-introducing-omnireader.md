@@ -3,11 +3,11 @@
 tab_title: Introducing OmniReader
 title: Introducing OmniReader
 subtitle: 'A Vue.js Web Application for enhancing your online-reading and learning experience'
-featured_image: '/images/oreader_logo.jpg'
+featured_image: '/images/2019-01-15-introducing-omnireader/oreader_logo.jpg'
 excerpt: What is my motivation for creating OmniReader? What does it do? How did I implement it and with what technologies? This writeup provides a short summary. 
 ---
 
-![](/images/oreader_logo.jpg)
+![](/images/2019-01-15-introducing-omnireader/oreader_logo.jpg)
 
 ## Background 
 
@@ -42,23 +42,23 @@ This secions provides a walkthrough of OmniReader's functionalities. You're invi
 
 
 <ol>
-	<img src="/images/oreader_intro_1.JPG" alt="OReader homepage" style="margin-top: 1rem; margin-bottom: 1rem;">
+	<img src="/images/2019-01-15-introducing-omnireader/oreader_intro_1.JPG" alt="OReader homepage" style="margin-top: 1rem; margin-bottom: 1rem;">
 	<li>
 		This first image is the landing page of the Web App. A user can enter a passage or an URL into the text field. If the later is the case, content is automatically extracted from the URL. The submit button leads to the Reader view, which we shall see next.
 	</li>
-	<img src="/images/oreader_intro_2.JPG" alt="OReader reader view" style="margin-top: 1rem; margin-bottom: 1rem;">
+	<img src="/images/2019-01-15-introducing-omnireader/oreader_intro_2.JPG" alt="OReader reader view" style="margin-top: 1rem; margin-bottom: 1rem;">
 	<li>
 		Here is a screenshot of the reader view. Because earlier we entered the URL of a WSJ article on Brexit in the text field, we find that same article, stripped of navigation, ads, etc, in the reader. In addition to offering a number of controls on the upper right, the reader view allows the user to underline words he or she might wish to look up. The browser automatically detects this and the yellow button will be displayed. If the user then click on this button, a dictionary view will pop up, as we illustrate next.
 	</li>
-	<img src="/images/oreader_intro_3.JPG" alt="OReader dictionary view" style="margin-top: 1rem; margin-bottom: 1rem;">
+	<img src="/images/2019-01-15-introducing-omnireader/oreader_intro_3.JPG" alt="OReader dictionary view" style="margin-top: 1rem; margin-bottom: 1rem;">
 	<li>
 		The dictionary modal provides english-to-english definitions for the seleted word. The part-of-speech is clearly color-coded. Each definition is a drawer, which displays smaple usage when clicked. "English-to-English? What if there is a word in the definition that I don't recognize?" one may well ask. Don't worry! All the words in the definitions are clickable. Looking up that word is as easy as just clicking on it! The breadcrumbs (not shown) provide a way of navigating back. 
 	</li>
-	<img src="/images/oreader_intro_4.JPG" alt="OReader add to deck feature" style="margin-top: 1rem; margin-bottom: 1rem;"> 
+	<img src="/images/2019-01-15-introducing-omnireader/oreader_intro_4.JPG" alt="OReader add to deck feature" style="margin-top: 1rem; margin-bottom: 1rem;"> 
 	<li>
 		Want to save a word you looked up for later? No problem! Just click on "Add to Deck" on the bottom right of dictionary modal, then the word will be saved under your account. Switch to the Flashcards interface in the left navigation and you can view all of your saved flashcards!
 	</li>
-	<img src="/images/oreader_intro_5.JPG" alt="OReader sign up interface" style="margin-top: 1rem; margin-bottom: 1rem;">
+	<img src="/images/2019-01-15-introducing-omnireader/oreader_intro_5.JPG" alt="OReader sign up interface" style="margin-top: 1rem; margin-bottom: 1rem;">
 	<li>
 		Don't have an account yet? Create an account right now by providing some basic info xD! 
 	</li>
