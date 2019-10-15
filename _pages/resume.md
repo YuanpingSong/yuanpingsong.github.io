@@ -50,12 +50,14 @@ GPA: 3.842
 * Competed April 2019  
 * Lead 5-person team to design and implement Web App which allowed users to monitor the performance of an investment portfolio and receive price alerts.
 * Compiled study material on Web development and software engineering for teammates in preparation for hackathon. 
-* Gained project management and product development experience. 
+* Gained project management and product development experience.   
+[write-up](/project/la-hacks-2019-alphaboard)
 
 **IDEA Hacks 2019**
 * Competed January 2019 
-* Lead 5-person team to create IoT air purifier inspired by air quality issues in my hometown. 
-* Leveraged 3D-printing, micro-controller programming, Android app, and Web services to develope final product. 
+* Lead 4-person team to create IoT air purifier inspired by air quality issues in my hometown. 
+* Leveraged 3D-printing, micro-controller programming, Android app, and Web services to develope final product.  
+[write-up](/project/idea-hacks-2019-filterist)
 
 **LA Hacks 2018**
 * Competed April 2018 
