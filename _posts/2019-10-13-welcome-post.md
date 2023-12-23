@@ -10,7 +10,7 @@ excerpt: Welcome to my blog! Use the navigation to take a look at my resume, pro
 
 ## Thank You
 
-Thank you for visiting my blog! I recommend taking a look at my [Resume](/resume/) and [Projects](/projects/). I will periodically post updates here about cool things I am working on.
+Thank you for visiting my blog! I recommend taking a look at my [Resume](/resume) and [Projects](/projects). I will periodically post updates here about cool things I am working on.
 
 ## Contact
 
