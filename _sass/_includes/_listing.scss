@@ -6,6 +6,8 @@
 
 .listing-post {
 	margin-top: 50px;
+	max-width: 1280px;
+	margin: auto;
 
 	@include mq(tabletp) {
 		margin-top: 80px;

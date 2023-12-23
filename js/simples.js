@@ -84,11 +84,15 @@
 
 		$(document).on('click', 'a', function (event){
 
-			// Don't follow link
-			event.preventDefault();
-
 			// Get the link target
 			var thisTarget = $(this).attr('href');
+
+			if (thisTarget.indexOf('mailto') >= 0) {
+				return;
+			}
+
+			// Don't follow link
+			event.preventDefault();
 
 			// If link is external
 			if ( thisTarget.indexOf('http') >= 0 ) {
