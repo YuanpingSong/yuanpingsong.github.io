@@ -1,16 +1,14 @@
 ---
 tab_title: KataGo Workstation
 title: "Building a Local AlphaGo: RTX 5070 Workstation Build & KataGo Benchmark"
-date: 2025-05-16 21:00:00
-featured_image: "/images/2025-05-16-katago-workstation-build-and-bench-en/author-tpu-rack.jpeg"
+date: 2025-05-15 21:00:00
+featured_image: "/images/2025-05-16-katago-workstation-build-and-bench/author-tpu-rack.jpeg"
 excerpt: Built an RTX 5070 + Ultra 7 workstation on a ~¥20,000 budget. KataGo inference speed boosted a hundredfold, creating an AI "divine assistant" gift for my amateur 6-dan uncle.
 ---
 
 **TL;DR:** Built an RTX 5070 + Ultra 7 workstation on a ~¥20,000 budget. KataGo inference speed boosted a hundredfold, creating an AI "divine assistant" gift for my amateur 6-dan uncle.
 
-[中文版本](/2025/05/16/katago-workstation-build-and-bench-zh/)
-
-# Building a Local AlphaGo: RTX 5070 Workstation Build & KataGo Benchmark
+[中文版本](/blog/katago-workstation-build-and-bench-zh/)
 
 Ever since deciding to pursue my Master's at CMU last year, I've been keenly interested in AI applications, especially local deployment. One day in July, while browsing [r/localllama](https://www.reddit.com/r/LocalLLaMA/), it suddenly struck me – AlphaGo, which was all the rage before, is also AI, right? I wondered if there was an open-source version. Wouldn't it be fascinating to run it on my own computer? I could leverage the power of AI to relive the joy of victory I didn't quite get enough of when learning Go in elementary school 😆. A quick search revealed that while AlphaGo itself isn't open-source (the original model required hundreds of TPUs, so even if it were open-source, few could use it), there _is_ a community-replicated open-source model: [Katago](https://github.com/lightvector/KataGo). It's also more compressed than the original. Thanks to advancements in algorithms and hardware, KataGo can now run smoothly on consumer-grade hardware, surpassing top human players. Pleasantly surprised, a seed of an idea was planted in my mind.
 

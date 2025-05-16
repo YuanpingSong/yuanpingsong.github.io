@@ -221,9 +221,9 @@ a {
   font-weight: $bold-weight;
   @include transition(all 0.15s ease-in-out);
 
-  @include mq(tabletp) {
-    white-space: nowrap;
-  }
+  // @include mq(tabletp) {
+  //   white-space: nowrap;
+  // }
 
   &:hover {
     color: $accent-color;

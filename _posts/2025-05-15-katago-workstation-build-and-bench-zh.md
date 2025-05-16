@@ -1,16 +1,14 @@
 ---
 tab_title: KataGo 工作站
 title: "打造本地 AlphaGo：RTX 5070 工作站装机与 KataGo 极限评测"
-date: 2025-05-16 21:00:00
+date: 2025-05-15 21:00:00
 featured_image: "/images/2025-05-16-katago-workstation-build-and-bench/author-tpu-rack.jpeg"
 excerpt: 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速度提升百倍，做成送给业余六段舅舅的 AI 神助手。
 ---
 
 TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速度提升百倍，做成送给业余六段舅舅的 AI 神助手。
 
-[English Version](/2025/05/16/katago-workstation-build-and-bench-en/)
-
-# 打造本地 AlphaGo：RTX 5070 工作站装机与 KataGo 极限评测
+[English Version](/blog/katago-workstation-build-and-bench-en/)
 
 自从去年决定来 CMU 读 Master 之后，一直对 AI 的应用，尤其是本地部署很感兴趣。七月某日，逛[r/localllama](https://www.reddit.com/r/LocalLLaMA/)时突然联想到 - 之前大火过的 AlphaGo 也属于 AI 呀，不知道有没有开源，如果能在自己电脑上跑岂不有趣？可以借助 AI 的力量，来体验小学学围棋时没体验够的胜利喜悦 😆。简单搜索之后发现 AlphaGo 虽未开源模型（原版的模型需要在几百个 TPU 上运行，即使开源也没几个人可以用），但是真的有社区复刻的开源模型：[Katago](https://github.com/lightvector/KataGo)，而且相比原版模型更加压缩。得益于算法和硬件的进步，在消费级硬件上 Katago 现在可以流畅运行，超过人类最高水准。惊喜之余脑海里留下了一个种子。
 
@@ -18,7 +16,7 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 
 ## 装机理念
 
-既然决定 DIY，就一定要达到品牌机和组装机不一样的效果 （否则有被爸妈吐槽的风险 🙃）。DIY 潜在的优势是 1）相同预算达到比品牌机更高的配置； 2）用上比组装机更高品质的部件；3）针对自己的使用场景优化配置：只为自己需要的性能买单，并为未来升级预留空间。这些“潜在”的优势并不是自带的，需要认真设计才能充分发挥出来。如果需求仅仅是用最低价格买到某个配置（如 i7+5080），那一定是京东上的组装机比自己 DIY 便宜。
+既然决定 DIY，就一定要达到品牌机和组装机不一样的效果 （否则有被爸妈吐槽的风险 🙃）。DIY 潜在的优势是 1）相同预算达到比品牌机更高的配置； 2）用上比组装机更高品质的部件；3）针对自己的使用场景优化配置：只为自己需要的性能买单，并为未来升级预留空间。这些"潜在"的优势并不是自带的，需要认真设计才能充分发挥出来。如果需求仅仅是用最低价格买到某个配置（如 i7+5080），那一定是京东上的组装机比自己 DIY 便宜。
 
 外设的重要性：我的目标给舅舅最好的使用体验而不是最高的跑分。外设对使用体验至关重要，因此预算也应该适当分配。
 
@@ -54,15 +52,15 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 
 **显卡**
 
-- 运行 Katago 的显存占用只有 1G 左右，因此 50 系列和更古早的显卡都可以用。因为现在 GPU 溢价太高，所以选择入手了“够用就行”的 Prime RTX 5070 12G。
+- 运行 Katago 的显存占用只有 1G 左右，因此 50 系列和更古早的显卡都可以用。因为现在 GPU 溢价太高，所以选择入手了"够用就行"的 Prime RTX 5070 12G。
 
-  | 型号            | 显存容量    | FP16 Tensor TFLOPS（FP32 Accumulate）            | 建议零售价（人民币）                            | 市场售价（人民币）                                |
-  | --------------- | ----------- | ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------- |
-  | **RTX 5090 D**  | 32 GB GDDR7 | 419.2 TFLOPS ([Wikipedia][1], [NVIDIA][2])       | 16 499 元起 ([IT 之家][3], [Sina Finance][4])   | 28 000 – 39 000 元 ([36Kr][5], [Sina Finance][6]) |
-  | **RTX 5080**    | 16 GB GDDR7 | 225.1 TFLOPS ([Wikipedia][1], [ZOL AI][7])       | 8 299 元起 ([IT 之家][3], [IT 之家][8])         | ≈ 8 299 元 ([IT 之家][8])                         |
-  | **RTX 5070 Ti** | 16 GB GDDR7 | 177.4 TFLOPS ([Wikipedia][1], [Sina Finance][9]) | 6 299 元起 ([Sina Finance][9], [Sohu News][10]) | 7 000 – 8 000 元 ([Sohu][11])                     |
-  | **RTX 5070**    | 12 GB GDDR7 | 123.9 TFLOPS ([Wikipedia][1], [Gamersky][12])    | 4 599 元起 ([Gamersky][12])                     | ≈ 4 599 元 ([什么值得买][13])                     |
-  | **RTX 5060 Ti** | 16 GB GDDR7 | 92.9 TFLOPS¹                                     | 3 599 元起 ([SMZDM Post][14])                   | ≈ 3 400 元 ([Zhihu][15])                          |
+| 型号            | 显存容量    | FP16 Tensor TFLOPS（FP32 Accumulate）            | 建议零售价（人民币）                            | 市场售价（人民币）                                |
+| --------------- | ----------- | ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------- |
+| **RTX 5090 D**  | 32 GB GDDR7 | 419.2 TFLOPS ([Wikipedia][1], [NVIDIA][2])       | 16 499 元起 ([IT 之家][3], [Sina Finance][4])   | 28 000 – 39 000 元 ([36Kr][5], [Sina Finance][6]) |
+| **RTX 5080**    | 16 GB GDDR7 | 225.1 TFLOPS ([Wikipedia][1], [ZOL AI][7])       | 8 299 元起 ([IT 之家][3], [IT 之家][8])         | ≈ 8 299 元 ([IT 之家][8])                         |
+| **RTX 5070 Ti** | 16 GB GDDR7 | 177.4 TFLOPS ([Wikipedia][1], [Sina Finance][9]) | 6 299 元起 ([Sina Finance][9], [Sohu News][10]) | 7 000 – 8 000 元 ([Sohu][11])                     |
+| **RTX 5070**    | 12 GB GDDR7 | 123.9 TFLOPS ([Wikipedia][1], [Gamersky][12])    | 4 599 元起 ([Gamersky][12])                     | ≈ 4 599 元 ([什么值得买][13])                     |
+| **RTX 5060 Ti** | 16 GB GDDR7 | 92.9 TFLOPS¹                                     | 3 599 元起 ([SMZDM Post][14])                   | ≈ 3 400 元 ([Zhihu][15])                          |
 
 [1]: https://en.wikipedia.org/wiki/GeForce_RTX_50_series?utm_source=chatgpt.com "GeForce RTX 50 series"
 [2]: https://www.nvidia.cn/geforce/graphics-cards/50-series/rtx-5090-d/?utm_source=chatgpt.com "GeForce RTX 5090 D 显卡| NVIDIA"
@@ -76,7 +74,7 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 [10]: https://news.sohu.com/a/860933883_122004016?utm_source=chatgpt.com "RTX 5070 Ti国行定价6299元，首批货源堪忧！ - 新闻"
 [11]: https://www.sohu.com/a/861090461_438786?utm_source=chatgpt.com "英伟达RTX 5070 Ti国行定价6299元起，消息称货源相当紧张 - 搜狐"
 
-[12]: https://www.gamersky.com/hardware/202503/1892485.shtml?utm_source=chatgpt.com "曝 RTX 5070 显卡国行零售价\"基本已敲定\"：4599 元 - 游民星空"
+[12]: https://www.gamersky.com/hardware/202503/1892485.shtml?utm_source=chatgpt.com "曝 RTX 5070 显卡国行零售价"基本已敲定"：4599 元 - 游民星空"
 [13]: https://www.smzdm.com/p/145647055/?utm_source=chatgpt.com "英伟达 NVIDIA GeForce RTX 5070 Founders Edition 公版显卡全新 ..."
 [14]: https://post.smzdm.com/p/axdlggmd?utm_source=chatgpt.com "传英伟达已确定 RTX 5060 Ti 国行 MSRP：16GB 和 8GB 版分别为 3599 ..."
 [15]: https://www.zhihu.com/question/1896149871578281604?utm_source=chatgpt.com "英伟达 RTX 5060 Ti 正式开售，国行售价 3199 元起 - 知乎"
@@ -105,21 +103,21 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 
 - 习惯了苹果之后，对于屏幕素质的要求明显提高了哈哈哈。这次装机的备选项是两款戴尔今年 CES 推出的新款 32 寸 4k 屏幕：U3225QE 和 S3225QC。体验过后的感受是：两个屏幕都很赞！U3225QE 哑光屏看上去很舒服，接口很强大，非常适合连接笔记本做 dock + 一天八小时办公。S3225QC 亮面屏+OLED 色彩很漂亮，空间音频的扬声器也很惊艳，很适合连台式机作为影音屏。决定是 U3225QE 留下来自用，S3225QC 送给舅舅。参数对比如下：
 
-  | 参数               | S3225QC                                        | U3225QE                                                                                                                                                   |
-  | ------------------ | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | 型号               | S3225QC                                        | U3225QE                                                                                                                                                   |
-  | 屏幕尺寸           | 31.6 英寸                                      | 31.5 英寸                                                                                                                                                 |
-  | 分辨率             | 3840×2160                                      | 3840×2160                                                                                                                                                 |
-  | 面板类型           | QD-OLED                                        | IPS Black                                                                                                                                                 |
-  | 刷新率             | 120 Hz                                         | 120 Hz                                                                                                                                                    |
-  | 对比度             | 理论无限 : 1                                   | 3,000 : 1                                                                                                                                                 |
-  | 响应时间           | 0.03 ms (GtG)                                  | 5 ms (GtG)                                                                                                                                                |
-  | 色域覆盖           | 99 % DCI-P3                                    | DCI-P3 99 % / sRGB 100 %                                                                                                                                  |
-  | HDR 认证           | VESA DisplayHDR True Black 400                 | DisplayHDR 600                                                                                                                                            |
-  | 扬声器             | 内置 5×5 W                                     | 无内置扬声器                                                                                                                                              |
-  | USB-C 供电         | 最⾼ 90 W                                      | 最⾼ 140 W                                                                                                                                                |
-  | 端口               | 2×HDMI 2.1, 1×DisplayPort 1.4, 1×USB-C (DP+PD) | 1×HDMI 2.1, 2×DisplayPort 1.4 (输⼊), 1×DisplayPort 1.4 (输出), 2×Thunderbolt 4 (上/下⾏), 1×USB-C (KVM 上⾏), 4×USB-A, 1×2.5 GbE RJ45, 1×3.5 mm 音频输出 |
-  | 市场售价（人民币） | ￥ 6,499                                       | ￥ 5,999                                                                                                                                                  |
+| 参数               | S3225QC                                        | U3225QE                                                                                                                                                   |
+| ------------------ | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 型号               | S3225QC                                        | U3225QE                                                                                                                                                   |
+| 屏幕尺寸           | 31.6 英寸                                      | 31.5 英寸                                                                                                                                                 |
+| 分辨率             | 3840×2160                                      | 3840×2160                                                                                                                                                 |
+| 面板类型           | QD-OLED                                        | IPS Black                                                                                                                                                 |
+| 刷新率             | 120 Hz                                         | 120 Hz                                                                                                                                                    |
+| 对比度             | 理论无限 : 1                                   | 3,000 : 1                                                                                                                                                 |
+| 响应时间           | 0.03 ms (GtG)                                  | 5 ms (GtG)                                                                                                                                                |
+| 色域覆盖           | 99 % DCI-P3                                    | DCI-P3 99 % / sRGB 100 %                                                                                                                                  |
+| HDR 认证           | VESA DisplayHDR True Black 400                 | DisplayHDR 600                                                                                                                                            |
+| 扬声器             | 内置 5×5 W                                     | 无内置扬声器                                                                                                                                              |
+| USB-C 供电         | 最⾼ 90 W                                      | 最⾼ 140 W                                                                                                                                                |
+| 端口               | 2×HDMI 2.1, 1×DisplayPort 1.4, 1×USB-C (DP+PD) | 1×HDMI 2.1, 2×DisplayPort 1.4 (输⼊), 1×DisplayPort 1.4 (输出), 2×Thunderbolt 4 (上/下⾏), 1×USB-C (KVM 上⾏), 4×USB-A, 1×2.5 GbE RJ45, 1×3.5 mm 音频输出 |
+| 市场售价（人民币） | ￥ 6,499                                       | ￥ 5,999                                                                                                                                                  |
 
 **预算**：主机+外设 ¥20000 左右
 
@@ -178,12 +176,12 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 - 更新系统环境变量
 
   - 按下 Win + R，输入 sysdm.cpl 并回车，打开系统属性。
-  - 切换到 “高级” 标签页，点击 “环境变量”。
-  - 在 “系统变量” 中找到并选择 Path，点击 “编辑”。
-  - 点击 “新建”，添加以下路径：
+  - 切换到 "高级" 标签页，点击 "环境变量"。
+  - 在 "系统变量" 中找到并选择 Path，点击 "编辑"。
+  - 点击 "新建"，添加以下路径：
   - C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vX.Y\bin
   - 再次，确保将 vX.Y 替换为您的实际 CUDA 版本。
-  - 点击 “确定” 保存更改，并关闭所有对话框。
+  - 点击 "确定" 保存更改，并关闭所有对话框。
 
 - 在命令提示符里运行`where cudnn64_9.dll`确保 CUDNN 可以被其他程序调用
 
@@ -208,14 +206,14 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 
       方法一：添加解压目录中的 lib 路径到 PATH
 
-      1. 按下 **Windows 键**，搜索并打开 **“编辑系统环境变量”**。
-      2. 在弹出的窗口中，点击 **“环境变量…”**。
-      3. 在 **“系统变量”** 部分，找到并选择 **“Path”**，然后点击 **“编辑…”**。
-      4. 点击 **“新建”**，添加以下路径：
+      1. 按下 **Windows 键**，搜索并打开 **"编辑系统环境变量"**。
+      2. 在弹出的窗口中，点击 **"环境变量…"**。
+      3. 在 **"系统变量"** 部分，找到并选择 **"Path"**，然后点击 **"编辑…"**。
+      4. 点击 **"新建"**，添加以下路径：
          ```
          <安装目录>\TensorRT-10.x.x.x\lib
          ```
-      5. 连续点击 **“确定”**，直到所有窗口关闭。
+      5. 连续点击 **"确定"**，直到所有窗口关闭。
 
       方法二：将 DLL 文件复制到 CUDA 安装目录
 
@@ -250,7 +248,7 @@ TL;DR： 两万元预算打造 RTX 5070 + Ultra 7 工作站，Katago 推理速�
 
 Katrain 是一个为 Katago 设计的图形界面，从 Github 上下载安装程序：[Katrain.exe](https://github.com/sanderland/katrain/releases)
 
-安装成功后启动，单击左上角菜单按钮，打开“通用和引擎设置”界面。把“KataGo 运行文件路径“和“KataGo 模型文件路径“更新为在第 1 步和第 6 步下载的文件。“KataGo 引擎设置“中“分析中每步棋运算步数“可以从默认值增加。回到主界面，所有的安装就大功告成啦。
+安装成功后启动，单击左上角菜单按钮，打开"通用和引擎设置"界面。把"KataGo 运行文件路径"和"KataGo 模型文件路径"更新为在第 1 步和第 6 步下载的文件。"KataGo 引擎设置"中"分析中每步棋运算步数"可以从默认值增加。回到主界面，所有的安装就大功告成啦。
 
 ## Katago 性能评测
 
@@ -262,15 +260,15 @@ Katago 有不同架构（大小）的模型，最新推出参数最多的 b28c51
 
 | 段位水平                           | 建议访问次数 / 步<sup>†</sup> | 主要依据                                                                                     | 注释                                |
 | ---------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 4 段                               | ≈ 6 visits                    | portkata  校准公式 (2020) ([GitHub][1])                                                      | —                                   |
-| 5 段                               | ≈ 8 visits                    | 同上 ([GitHub][1])                                                                           | 博主常用“8 次”作 5d 练习            |
+| 4 段                               | ≈ 6 visits                    | portkata 校准公式 (2020) ([GitHub][1])                                                       | —                                   |
+| 5 段                               | ≈ 8 visits                    | 同上 ([GitHub][1])                                                                           | 博主常用"8 次"作 5d 练习            |
 | 6 段                               | ≈ 10 visits                   | 同上 ([GitHub][1])                                                                           | —                                   |
 | 7 段                               | ≈ 12 visits                   | 同上 ([GitHub][1])                                                                           | —                                   |
 | 8 段                               | ≈ 14 visits                   | 同上 ([GitHub][1])                                                                           | —                                   |
 | 9 段                               | ≈ 16 visits                   | 同上；实测能击败 Zen7 9d ([GitHub][1])                                                       |                                     |
 | 顶业余 / 准职业                    | ≈ 128 visits                  | OGS 讨论：几十～百次已超最强业余 ([Online Go Forum][2])                                      | b28c512 额外 +300 Elo ([Reddit][3]) |
 | **超人类**                         | **≥ 2 048 visits**            | OGS「潜在段位膨胀」& 对抗策略论文 (2022) ([Online Go Forum][4], [OpenReview][5])             | 72 % 对抗胜率仍可破防               |
-| “极限推衍”<br/>（科研 / 题材挖掘） | 10 000 – 100 000 visits       | 研究者与 L19 讨论：万级可显著减少偶发失误、稳定劫争 ([Life In 19x19][6], [Life In 19x19][7]) | 收益递减，但可作超长读秒或漏洞检测  |
+| "极限推衍"<br/>（科研 / 题材挖掘） | 10 000 – 100 000 visits       | 研究者与 L19 讨论：万级可显著减少偶发失误、稳定劫争 ([Life In 19x19][6], [Life In 19x19][7]) | 收益递减，但可作超长读秒或漏洞检测  |
 
 [1]: https://github.com/lightvector/KataGo/issues/321 "Android binary · Issue #321 · lightvector/KataGo · GitHub"
 [2]: https://forums.online-go.com/t/what-is-the-strength-of-katago/52023?utm_source=chatgpt.com "What is the strength of KataGo? - Online Go Forum"
