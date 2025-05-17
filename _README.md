@@ -135,7 +135,7 @@ This is your website home page, showing your latest blog posts. You can edit som
 
 ### The projects page – `/projects/index.html`
 
-This is the blog listing page, which shows all your project posts. You can edit the same things as on the home page to customise it for your website.
+This is the projects listing page, which shows all your project posts…
 
 ---
 
