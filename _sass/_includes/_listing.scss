@@ -5,9 +5,13 @@
 // - - - - - - - - - - - - - - - - - -
 
 .listing-post {
-	margin-top: 50px;
-	max-width: 1280px;
-	margin: auto;
+        margin-top: 50px;
+        max-width: 1280px;
+        margin: auto;
+        background: $background-color;
+        border-radius: 8px;
+        padding: 20px;
+        @include box-shadow(0, 4px, 12px, rgba($text-dark-color, 0.05));
 
 	@include mq(tabletp) {
 		margin-top: 80px;
@@ -31,14 +35,16 @@
 }
 
 .listing-post__image {
-	margin-top: 20px;
-	display: block;
-	width: 100%;
-	height: 0;
-	padding-bottom: 56.25%;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        overflow: hidden;
 
 	@include mq(tabletp) {
 		margin-top: 25px;
