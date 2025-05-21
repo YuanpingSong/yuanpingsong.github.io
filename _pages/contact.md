@@ -6,7 +6,7 @@ description: Here are the ways you can reach me!
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-The best way to reach me is via email. I will try my best to get back to you within 24-48 hrs. If you do not recive a reply, please do not hesitate to remind me again.
+The best way to reach me is via email. I will try my best to get back to you within 24-48 hrs. If you do not receive a reply, please do not hesitate to remind me again.
 
 ## Email
 
